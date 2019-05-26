@@ -19,6 +19,7 @@ model2 = tree(race ~ .,data = Wage)
 
 Cars93$Make
 
+======trial==================
 
 plot(model1)
 
@@ -27,3 +28,6 @@ text(model1)
 summary(model1)
 model1
 partition.tree(model1)
+
+
+  
